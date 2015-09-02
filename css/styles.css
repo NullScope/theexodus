@@ -8,7 +8,7 @@ body{
 	color: #f4f3f3;
 }
 
-a:link{
+a:link, a:visited{
 	color: #f4f3f3;
 }
 
