@@ -401,6 +401,8 @@ footer{
 	height: 100%;
 	float: left;
 	background-image: url("../images/info-bg.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
 
 .info-section .info-text{
