@@ -4,6 +4,11 @@ body{
 	background-repeat: no-repeat;
 	background-size: 100vw;
 	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: #f4f3f3;
+}
+
+a:link{
 	color: #f4f3f3;
 }
 
@@ -39,7 +44,7 @@ footer{
 	float: left;
 }
 
-#header #title{
+#header .title{
 	width: 50%;
 	height: 100%;
 	float: left;
@@ -50,16 +55,16 @@ footer{
 	text-transform: uppercase;
 }
 
-#header > #title > .text{
+#header > .title > .text{
 	margin-top: 2.083333333333333vw;
 	margin-left: 1.875vw;
 }
 
-#header > #title > .text .championship-name{
+#header > .title > .text .championship-name{
 	font-weight: 600;
 }
 
-#header > #title > .text .stage{
+#header > .title > .text .stage{
 	font-weight: 600;
 	font-size: 1.979166666666667vw;
 }
@@ -186,7 +191,7 @@ footer{
 	font-size: 2.03125vw;
 }
 
-#stream-header #title{
+#stream-header .title{
 	text-transform: uppercase;
 }
 
@@ -202,6 +207,7 @@ footer{
 	float: left;
 	width: 100%;
 	height: 13.125vw;
+	margin-bottom:1.5625vw;
 }
 
 #stream .background{
@@ -241,6 +247,39 @@ footer{
 #stream .pseudo-name{
 	font-size: 2.291666666666667vw;
 	font-weight: 900;
+}
+
+#tournament{
+	border-bottom: 1px solid #46435c;
+	height: 103vw;
+}
+
+#tournament > .title{
+	width: 100%;
+	text-align: center;
+	font-size: 1.614583333333333vw;
+	margin-bottom: 1.302083333333333vw;
+	border-bottom: 0.2604166666666667vw solid #b6304a;
+}
+
+#tournament .description{
+	float: left;
+	width: 31.82291666666667vw;
+	font-size: 0.8333333333333333vw;
+	text-align: justify;
+	margin-left: 1.5625vw;
+	padding-bottom: 9.739583333333333vw;
+}
+
+#main-bg{
+	margin-top: -26.2vw;
+	position: absolute;
+	width: 51.6vw;
+	height: 33.33333333333333vw;
+	background-image: url("../images/main-bg.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	pointer-events:none;
 }
 
 #mod-logo{
@@ -298,11 +337,43 @@ footer{
 	background-image: url("../images/reddit-logo.png");
 }
 
+.learn-more{
+	width: 16.71875vw;
+	height: 8.333333333333333vw;
+	float: right;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.learn-more .title{
+	width: 100%;
+	height: 2.083333333333333vw;
+	background-color: rgba(0,0,0,0.4);
+	font-size: 0.8333333333333333vw;
+	text-transform: uppercase;
+	
+}
+
+.learn-more .title .text{
+	padding: 0.55vw 0 0 0.55vw;
+}
+
+#learn-fof{
+	background-image: url("../images/learn-fof.png");
+}
+
+#day1{
+	background-image: url("../images/day1.png");
+}
+
+#workshop{
+	background-image: url("../images/workshop.png");
+}
+
 .sponsor{
 	width: 12.9vw;
 	height: 7.1vw;
 	border-left: 1px solid #46435c;
-	border-right: 1px solid #46435c;
 	float: left;
 	background-image: url("../images/sponsor-template.png");
 	background-repeat: no-repeat;
