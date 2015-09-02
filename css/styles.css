@@ -154,6 +154,7 @@ footer{
 #prizepool{
 	width: 100%;
 	height: 10.26041666666667vw;
+	margin-bottom: 1.302083333333333vw;
 	background-image: url("../images/prizepool-bg.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -217,6 +218,7 @@ footer{
 	background-image: url("../images/stream-avatar-bg.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
+	pointer-events:none;
 }
 
 #stream .profile{
