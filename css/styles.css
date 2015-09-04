@@ -18,15 +18,85 @@ footer{
 	margin: 0 auto;
 }
 
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
 #exodus-header{
 	top: 0;
 	left:0; 
 	right:0;
 	margin: 0 auto;
 	position: absolute;
-	width: 51.6vw;
+	width: 51.5625vw;
 	height: 27.60416666666667vw;
-	background-image: url("../images/exodus-header.png");
+	background-image: url("../images/logo-main.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#exodus-header .sparkles{
+	position: absolute;
+	width: 51.5625vw;
+	height: 27.60416666666667vw;
+	background-image: url("../images/logo-art.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#exodus-header .spin-main{
+	position: absolute;
+	width: 31.25vw;
+	height: 31.25vw;
+	top: 0.78125vw;
+	left: 7.4vw;
+
+	-webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+#exodus-header .spin1{
+	position: absolute;
+	width: 31.25vw;
+	height: 31.25vw;
+	background-image: url("../images/logo-spin1.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#exodus-header .spin2{
+	position: absolute;
+	width: 31.25vw;
+	height: 31.25vw;
+	background-image: url("../images/logo-spin2.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#exodus-header .spin3{
+	position: absolute;
+	width: 31.25vw;
+	height: 31.25vw;
+	background-image: url("../images/logo-spin3.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#exodus-header .spin4{
+	position: absolute;
+	width: 31.25vw;
+	height: 31.25vw;
+	background-image: url("../images/logo-spin4.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#exodus-header .spin5{
+	position: absolute;
+	width: 31.25vw;
+	height: 31.25vw;
+	background-image: url("../images/logo-spin5.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
