@@ -149,6 +149,14 @@ footer{
 	float: left;
 }
 
+#header #bracket .text{
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 1.5vw;
+	margin-top: 2.6vw;
+	margin-left: 9.4vw;
+}
+
 #info-header{
 	width: 100%;
 	height: 3.698317959848074vw;
