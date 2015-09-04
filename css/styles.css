@@ -51,9 +51,10 @@ footer{
 	top: 0.78125vw;
 	left: 7.4vw;
 
-	-webkit-animation:spin 4s linear infinite;
-    -moz-animation:spin 4s linear infinite;
-    animation:spin 4s linear infinite;
+	-webkit-animation: spin 6s linear infinite; /* Safari 4+ */
+	-moz-animation:    spin 6s linear infinite; /* Fx 5+ */
+	-o-animation:      spin 6s linear infinite; /* Opera 12+ */
+	animation:         spin 6s linear infinite; /* IE 10+, Fx 29+ */
 }
 
 #exodus-header .spin1{
