@@ -1240,7 +1240,38 @@ a, a:visited, a:active a:focus{
 }
 
 #changelog{
+	line-height: 1.3020833333333333vw;
+}
 
+#changelog h3
+{
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 1.1458333333333333vw;
+    letter-spacing: 0.052083333333333336vw;
+    color: #ED3B1C;
+    text-shadow: 0.052083333333333336vw 0.052083333333333336vw 0.052083333333333336vw #000000;
+
+    margin-top: 1.0416666666666667vw;
+    margin-bottom: 0.5208333333333334vw;
+}
+
+#changelog p {
+    margin: 0 0 0.5208333333333334vw;
+}
+
+#changelog ol, #changelog ul {
+    margin-top: 0;
+    margin-bottom: 0.5208333333333334vw;
+    padding-left: 0;
+    padding-bottom: 0.78125vw;
+}
+
+#changelog li {
+    font-size: 0.9375vw;
+    line-height: 1.7708333333333333vw;
+    margin-left: 1.0416666666666667vw;
+    text-shadow: 0.052083333333333336vw 0.052083333333333336vw 0.052083333333333336vw #000000;
 }
 
 #changelog .header{
@@ -1279,17 +1310,18 @@ a, a:visited, a:active a:focus{
 	position: relative;
     display: none;
     background-color: #0E0E0E;
-    border: 1px solid black;
+    border: 0.052083333333333336vw solid black;
     margin-top: 0px;
-    margin-left: -20px;
-    padding: 15px;
-    padding-left: 20px;
+    margin-left: -1.0416666666666667vw;
+    padding: 0.78125vw;
+    padding-left: 1.0416666666666667vw;
     color: #707070;
+    line-height: normal !important;
 }
 
 .ChangeDetailsEToggle {
     display: block;
-    margin-top: 10px;
+    margin-top: 0.5208333333333334vw;
     color: #CC867A;
 }
 
@@ -1299,22 +1331,22 @@ a, a:visited, a:active a:focus{
     z-index: 100;
     width: 94.5%;
     background-color: #131313;
-    border: 1px solid black;
+    border: 0.052083333333333336vw solid black;
     margin: 0 auto;
-    margin-top: 5px;
-    padding: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-top: 0.2604166666666667vw;
+    padding: 0.78125vw;
+    padding-top: 0.5208333333333334vw;
+    padding-bottom: 0.5208333333333334vw;
     color: #707070;
 }
 
 .ChangeDetailsEToggle.HideButton {
-    margin-top: -5px;
-    margin-bottom: 15px;
+    margin-top: -0.2604166666666667vw;
+    margin-bottom: 0.78125vw;
 }
 
 .ChangeNoteImage{
-
+	max-height: 1.875vw;
 }
 
 .ChangeNoteImage.item img{
@@ -1322,48 +1354,23 @@ a, a:visited, a:active a:focus{
 	height: 1.875vw;
 }
 
+.ChangeNoteImage.hero:not(:first-child){
+	/*margin-top: 2.6041666666666665vw;*/
+}
+
 .ChangeNoteImage.hero img{
 	width: 3.0729166666666665vw;
 	height: 1.71875vw;
 }
 
-#changelog h3, #Items b:nth-of-type(1), #Items b:nth-of-type(2)
-{
-    text-transform: uppercase;
-    font-weight: normal;
-    font-size: 22px;
-    letter-spacing: 1px;
-    color: #ED3B1C;
-    text-shadow: 1px 1px 1px #000000;
-}
-
 #Items strong {
-    font-size: 18px;
-}
-
-#changelog li {
-    font-size: 18px;
-    line-height: 34px;
-    margin-left: -20px;
-    text-shadow: 1px 1px 1px #000000;
-}
-
-#Items b:nth-of-type(1)
-{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-#Items b:nth-of-type(2)
-{
-    padding-top: 30px;
-    padding-bottom: 10px;
+    font-size: 0.9375vw;
 }
 
 #Heroes b, #Items b {
-    font-size: 18px;
-    padding-bottom: 4px;
-    margin-top: -10px;
+    font-size: 0.9375vw;
+    padding-bottom: 0.20833333333333334vw;
+    margin-top: -0.5208333333333334vw;
     display: block;
 }
 

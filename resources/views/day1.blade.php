@@ -203,9 +203,10 @@
             </div>
             <div class="description">
 
-                <div class="container">
+                <div class="Container">
                     <div class="Inner">
                         <h3>General</h3>
+                        <br/>
                             <ul>
                                 <li class="highlight">Reworked Ranked All Pick. Before the picking phase begins, there is a 15 second voting phase to ban heroes. Each player votes for a different hero. Afterwards, half of the heroes that were voted on will be randomly selected and banned.
                                     <div class="ChangeDetailsExtended">
@@ -218,16 +219,16 @@
                 </div>
 
                 <!-- ITEMS -->
-                <div class="container" id="Items">
+                <div class="Container" id="Items">
                     <div class="Inner">
-                        <b>NEW ITEMS</b>
+                        <h3>NEW ITEMS</h3>
                         <br />
 
                         <div class="ChangeNoteImage item">
                             <img src="http://cdn.dota2.com/apps/dota2/images/items/bloodthorn_lg.png?2">
                         </div>
                         <br style='clear: left;'/>
-                        <strong>Bloodthorn</strong>
+                        <b>Bloodthorn</b>
                         <br />
 
                         <ul>
@@ -250,7 +251,7 @@
                             </li>
                         </ul>
 
-                        <b>ITEM CHANGES</b>
+                        <h3>ITEM CHANGES</h3>
                         <br />
 
                         [[basher]]
@@ -259,17 +260,48 @@
                             <li>Recipe cost reduced from 1000 to 750</li>
                         </ul>
 
+                        [[abyssal_blade]]
+                        <ul>
+                            <li class="highlight">Now requires Basher, Vanguard, and a 1550 recipe
+                                <div class="ChangeDetailsExtended">
+                                    <p>Cost from 6750 to 6400</p>
+                                    <p>Previously provided:<br />
+                                        + 10 Strength<br />
+                                        + 70 Damage
+                                    </p>
+                                    <p>Now provides:<br />
+                                        + 10 Strength<br />
+                                        + 10 Damage<br />
+                                        + 250 Health<br />
+                                        + 15 HP regeneration<br />
+                                        Damage Block: 100% to block 40/20 damage for melee/ranged wielders
+                                    </p>
+
+                                </div>
+                            </li>
+                            <li>Overwhelm mana cost from 150 to 75</li>
+                            <li>Overwhelm cooldown from 60 to 35</li>
+                            <li>Bash damage reduced from 120 to 85</li>
+                        </ul>
+
+
                     </div>
                 </div>
 
                 <!-- HEROES -->
-                <div class="container" id="Heroes">
+                <div class="Container" id="Heroes">
                     <div class="Inner">
                         <h3>Heroes</h3>
-                        
+                        <br/>
                                 [[abaddon]]
                                 <ul>
                                     <li>Curse of Avernus slow increased from 5/10/15/20% to 8/12/16/20%</li>
+                                </ul>
+                                
+                                [[ancient_apparition]]
+                                <ul>
+                                    <li>Cold Feet cooldown reduced from 15/13/11/9 to 13/11/9/7</li>
+                                    <li>Cold Feet damage timing changed from 0.8/1.6/2.5/3.4 to 0/1/2/3</li>
                                 </ul>
                     </div>
                 </div>
