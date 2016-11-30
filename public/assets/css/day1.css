@@ -15,9 +15,13 @@ a:hover
 	transition: color .15s ease-in-out;
 }
 
-a, a:visited, a:active a:focus{
-    color: #CC867A;
+a, a:active, a:visited, a:focus {
+    color: #959595;
     text-decoration: none;
+}
+
+a, a:visited, a:active {
+    color: #CC867A;
 }
 
 #header{
@@ -1316,7 +1320,6 @@ a, a:visited, a:active a:focus{
     padding: 0.78125vw;
     padding-left: 1.0416666666666667vw;
     color: #707070;
-    line-height: normal !important;
 }
 
 .ChangeDetailsEToggle {
