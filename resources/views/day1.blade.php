@@ -22,7 +22,7 @@
             <div class="title">Fight or Flight</div>
             <div class="description">{!! trans('day1.description') !!}</div>
             <div id="showmatch">
-                <iframe class="video" src="https://www.youtube.com/embed/GKfHcZC8CAM?rel=0&amp;controls=0&amp;showinfo=1&amp;modestbranding=1" frameborder="0" allowfullscreen></iframe>
+                <iframe class="video" src="https://www.youtube.com/embed/GKfHcZC8CAM?rel=0&amp;controls=1&amp;showinfo=0&amp;modestbranding=0" frameborder="0" allowfullscreen></iframe>
                 <div class="title">{!! trans('day1.watch_the_showmatch') !!}</div>
             </div>
             <div id="characteristics">
@@ -131,14 +131,14 @@
                     </div>
                 </div>
 
-                <div class="description-2">{!! trans('day1.outposts_desc_2') !!}</div>
+                <!-- <div class="description-2">{!! trans('day1.outposts_desc_2') !!}</div> -->
             </div>
             <div id="auxiliaries" class="clearfix">
                 <div class="title">{{ trans('day1.auxiliaries') }}</div>
                 <div class="description">{!! trans('day1.auxiliaries_desc') !!}</div>
                 <div class="wallpaper"></div>
                 
-                <div class="info clearfix">
+                <div id="auxes-info" class="info clearfix">
                     <input type="button" id="soruq-bane" class="aux"></input>
                     <input type="button" id="diffusal-stone" class="aux"></input>
                     <input type="button" id="necrolic-equilibrium" class="aux"></input>
@@ -147,8 +147,10 @@
                     <input type="button" id="omniscience-blessing" class="aux"></input>
                     <input type="button" id="goblin-artillery" class="aux"></input>
 
-                    <div id="aux-title"></div>
-                    <div id="aux-description"></div>
+                    <!-- <div id="aux-info"> -->
+                        <div id="aux-title"></div>
+                        <div id="aux-description"></div>
+                    <!-- </div> -->
                 </div>
                 <div class="dividing-line"></div>
             </div>
@@ -235,6 +237,16 @@
                 "goblin-artillery" : "{!! trans('day1.goblin_artillery_desc') !!}",
             };
 
+            var auxVideos = {
+                "soruq-bane" : "ImperfectIcyBlackbear",
+                "diffusal-stone" : "YoungNearAmericanindianhorse",
+                "necrolic-equilibrium" : "VigorousMeaslyAnemone",
+                "fundamental-boon" : "CookedGraciousAsiaticlesserfreshwaterclam",
+                "damathryx-gift" : "WhiteDapperHornshark",
+                "omniscience-blessing" : "EcstaticRevolvingAsiansmallclawedotter",
+                "goblin-artillery" : "CarefulPlumpAlleycat",
+            };
+
             $( ".aux" ).click(function() {
                 ShowAuxInfo( $(this).attr("id") );
             });
@@ -252,13 +264,31 @@
 
                 $('#aux-title').text(auxTitles[auxName]);
                 $('#aux-description').text(auxDescriptions[auxName]);
+
+                if ($('#aux-video').length){
+                    $('#aux-video').remove();
+                }
+                
+                $('<div id="aux-video"><div class="gfyitem" data-autoplay="true" data-id="' + auxVideos[auxName] + '"></div></div>').appendTo('#auxes-info');
+                gfyCollection.scan();
+
+                $('body, html').animate({
+                    scrollTop: $("#auxes-info").offset().top
+                }, 500);
             }
 
-            ShowAuxInfo("soruq-bane");
+            $('body,html').bind('scroll mousedown wheel DOMMouseScroll mousewheel keyup touchmove', function(e){
+                if ( e.which > 0 || e.type == "mousedown" || e.type == "mousewheel" || e.type == "touchmove"){
+                    $("html,body").stop();
+                }
+            })
+
+            // ShowAuxInfo("soruq-bane");
         })(jQuery);
     </script>
 
     <script src="assets/js/fetch_heropedia.js"></script>
+    <script type="text/javascript" src="https://assets.gfycat.com/gfycat.js"></script>
 @endsection
 
 @section('footer')
