@@ -53,7 +53,7 @@ return [
     'auxiliaries_desc' => 'After capturing an outpost, you can purchase an Auxiliary for your outpost in order to fortify the position or gain an advantage on the battlefield.
         <br/><br/>
         Auxiliaries offer many strategic advantages and allow you to reinforce your play-style. They can be defensive, offensive or offer diverse utility. Auxiliaries have an active and a passive component which often synergize with each other.
-		<br/><br/> Select an outpost icon below to learn more.',
+		<br/><br/> <b><font color='#b3e44a'>Select an outpost icon below to learn more.</b></font>',
     'soruq_bane' => 'Soruq\'s Bane',
     'soruq_bane_desc' => '<font color="#b3e44a">Active</font>: Purges each marked unit, dealing damage and slowing drastically. <br/><font color="#e0705e">Passive</font>: Enemy units stepping in the area of influence of this outpost will be marked for which reveals a large area around them.',
     'diffusal_stone' => 'Diffusal Stone',
