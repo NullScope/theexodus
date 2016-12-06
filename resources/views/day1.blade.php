@@ -137,6 +137,7 @@
                 <div class="title">{{ trans('day1.auxiliaries') }}</div>
                 <div class="description">{!! trans('day1.auxiliaries_desc') !!}</div>
                 <div class="wallpaper"></div>
+                <div class="auxes-learn-more">{!! trans('day1.auxiliaries_learn_more') !!}</div>
                 
                 <div id="auxes-info" class="info clearfix">
                     <input type="button" id="soruq-bane" class="aux"></input>
@@ -181,8 +182,8 @@
             <div id="pronin" class="clearfix">
                 <div class="wallpaper"></div>
                 <div class="header">
+                    <div class="icon"></div>
                     <div class="title">{{ trans('day1.pronin') }}</div>
-                    <div class="line"></div>
                 </div>
                 <div class="description">{!! trans('day1.pronin_desc') !!}</div>
                 <div class="dividing-line"></div>
@@ -275,13 +276,13 @@
                 $('body, html').animate({
                     scrollTop: $("#auxes-info").offset().top
                 }, 500);
-            }
+            };
 
             $('body,html').bind('scroll mousedown wheel DOMMouseScroll mousewheel keyup touchmove', function(e){
                 if ( e.which > 0 || e.type == "mousedown" || e.type == "mousewheel" || e.type == "touchmove"){
                     $("html,body").stop();
                 }
-            })
+            });
 
             // ShowAuxInfo("soruq-bane");
         })(jQuery);

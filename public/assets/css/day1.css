@@ -817,10 +817,20 @@ a, a:visited, a:active {
 	position: relative;
 	float: right;
 	width: 32vw;
-	margin-top: 5.104166666666667vw;
 	margin-right: 19vw;
 	text-align: justify;
 	font-size: 1.3541666666666667vw;
+	font-weight: 300;
+	line-height: 1.6145833333333333vw;
+	color: #fff;
+}
+
+#auxiliaries > .auxes-learn-more{
+	position: relative;
+	margin-top: 1vw;
+	width: 100%;
+	text-align: center;
+	font-size: 1.8vw;
 	font-weight: 300;
 	line-height: 1.6145833333333333vw;
 	color: #fff;
@@ -848,7 +858,7 @@ a, a:visited, a:active {
 
 #auxiliaries .info{
 	margin-left: 17.239583333333332vw;
-	margin-top: 3.0208333333333335vw;
+	margin-top: 1.5625vw;
 	width: 63.020833333333336vw;
 }
 
@@ -1136,8 +1146,6 @@ a, a:visited, a:active {
 }
 
 #pronin .header{
-	position: absolute;
-	margin-top: 50vw;
 	width: 100%;
 }
 
@@ -1151,15 +1159,16 @@ a, a:visited, a:active {
 }
 
 #pronin .title{
+	margin-top: 3vw;
 	text-align: center;
 	font-weight: 800;
-	font-size: 4.6875vw;
+	font-size: 3vw;
 	letter-spacing: 0.22em;
 	text-transform: uppercase;
 }
 
 #pronin .description{
-	width: 55.208333333333336vw;
+	width: 46vw;
 	font-size: 1.4583333333333333vw;
 	margin: 0 auto;
 	margin-bottom: 9.84375vw;
@@ -1168,11 +1177,20 @@ a, a:visited, a:active {
 }
 
 #pronin .wallpaper{
-	float: right;
-	width: 95.98958333333333vw;
-	height: 61.041666666666664vw;
+	width: 100%;
+	height: 58.541666666666664vw;
 	pointer-events: none;
 	background-image: url("../images/day1/pronin.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#pronin .icon{
+	width: 14.6875vw;
+	height: 14.427083333333334vw;
+	margin: 0 auto;
+	margin-top: -13.020833333333334vw;
+	background-image: url("../images/day1/pronin-icon.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
@@ -1438,7 +1456,7 @@ a, a:visited, a:active {
 	position: absolute;
 	width: 15.520833333333334vw;
 	height: 5.208333333333333vw;
-	margin-top: 4.739583333333333vw;
+	margin-top: 4vw;
 	margin-left: 22.5vw;
 	background-image: url("../images/day1/simple-logo.png");
 	background-repeat: no-repeat;
@@ -1447,7 +1465,7 @@ a, a:visited, a:active {
 
 #footer .copyright{
 	position: absolute;
-	margin-top: 10.416666666666666vw;
+	margin-top: 9.6vw;
 	margin-left: 22.552083333333332vw;
 	font-size: 0.7291666666666666vw;
 }
@@ -1457,7 +1475,7 @@ a, a:visited, a:active {
 	width: 15.833333333333334vw;
 	height: 9.427083333333334vw;
 	margin-left: 40.989583333333336vw;
-	margin-top: 1.8229166666666667vw;
+	margin-top: 1.3vw;
 	pointer-events: none;
 }
 
