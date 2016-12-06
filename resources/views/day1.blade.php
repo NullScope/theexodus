@@ -228,13 +228,13 @@
             };
 
             var auxDescriptions = {
-                "soruq-bane" : "{!! trans('day1.soruq_bane_desc') !!}",
-                "diffusal-stone" : "{!! trans('day1.diffusal_stone_desc') !!}",
-                "necrolic-equilibrium" : "{!! trans('day1.necrolic_equilibrium_desc') !!}",
-                "fundamental-boon" : "{!! trans('day1.fundamental_boon_desc') !!}",
-                "damathryx-gift" : "{!! trans('day1.damathryx_gift_desc') !!}",
-                "omniscience-blessing" : "{!! trans('day1.omniscience_blessing_desc') !!}",
-                "goblin-artillery" : "{!! trans('day1.goblin_artillery_desc') !!}",
+                'soruq-bane' : '<font color="#b3e44a">Active</font>: Purges each marked unit, dealing damage and slowing drastically. <br/><font color="#e0705e">Passive</font>: Enemy units stepping in the area of influence of this outpost will be marked for which reveals a large area around them.',
+                'diffusal-stone' : '{!! trans("day1.diffusal_stone_desc") !!}',
+                'necrolic-equilibrium' : '{!! trans("day1.necrolic_equilibrium_desc") !!}',
+                'fundamental-boon' : '{!! trans("day1.fundamental_boon_desc") !!}',
+                'damathryx-gift' : '{!! trans("day1.damathryx_gift_desc") !!}',
+                'omniscience-blessing' : '{!! trans("day1.omniscience_blessing_desc") !!}',
+                'goblin-artillery' : '{!! trans("day1.goblin_artillery_desc") !!}',
             };
 
             var auxVideos = {
@@ -262,8 +262,8 @@
 
                 $('#'+auxName).addClass( 'active' );
 
-                $('#aux-title').text(auxTitles[auxName]);
-                $('#aux-description').text(auxDescriptions[auxName]);
+                $('#aux-title').html(auxTitles[auxName]);
+                $('#aux-description').html(auxDescriptions[auxName]);
 
                 if ($('#aux-video').length){
                     $('#aux-video').remove();

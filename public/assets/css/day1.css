@@ -241,7 +241,7 @@ a, a:visited, a:active {
 }
 
 #characteristics > .characteristic.status{
-	background-image: url("../images/day1/status-icon.png");
+	background-image: url("../images/day1/status-beta-icon.png");
 	margin-right: 17.708333333333332vw;
 }
 
@@ -897,7 +897,7 @@ a, a:visited, a:active {
 	width: 24vw;
 	text-align: justify;
 	float: right;
-	font-size: 1vw;
+	font-size: 1.6vw;
 	font-weight: 300;
 }
 
@@ -1153,14 +1153,14 @@ a, a:visited, a:active {
 #pronin .title{
 	text-align: center;
 	font-weight: 800;
-	font-size: 5.208333333333333vw;
+	font-size: 4.6875vw;
 	letter-spacing: 0.22em;
 	text-transform: uppercase;
 }
 
 #pronin .description{
 	width: 55.208333333333336vw;
-	font-size: 1.9791666666666667vw;
+	font-size: 1.4583333333333333vw;
 	margin: 0 auto;
 	margin-bottom: 9.84375vw;
 	padding-top: 4vw;
@@ -1226,9 +1226,9 @@ a, a:visited, a:active {
 	margin-top: 2.0833333333333335vw;
 	margin-left: 20.78125vw;
 	text-align: justify;
-	font-size: 1.3541666666666667vw;
+	font-size: 1.625vw;
 	font-weight: 300;
-	line-height: 1.6145833333333333vw;
+	line-height: 2vw;
 	color: #fff;
 }
 
