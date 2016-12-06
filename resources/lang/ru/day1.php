@@ -11,92 +11,84 @@ return [
     |
     */
 
-    'presents' => 'Presents',
-    'description' => 'FoF is based on advanced CTF/CTP elements that redefines the stages of Dota 2; farming is reduced to a minimum, action from the get-go, multiple means of winning and diverse strategies which can be employed.
-        <br/><br/>
-        It doesn\'t matter if you\'re the one who likes to defend your base, attack the 
-        enemies, support your allies, make sure you steal all their orb, or just recover yours, you will always have a place in Fight or Flight.',
+    'presents' => 'Представляет',
+    'description' => 'Fight or Flight современная реинтерпретация жанра с различными целями и точек интереса. Очки накапливаются за счет убийств, алтаря и орба. Первая команда, которая достигнет 75 баллов - побеждает ',
     'watch_the_showmatch' => 'Watch<br/>the<br/>showmatch',
-    'difficulty' => 'Difficulty',
-    'competitive' => 'Competitive',
-    'duration' => 'Duration',
-    'medium' => 'Medium',
-    'status' => 'Status',
-    'released' => 'Released',
+    'difficulty' => 'Сложность',
+    'competitive' => 'Cоревновательный',
+    'duration' => 'Длительность',
+    'medium' => 'Средний',
+    'status' => 'Статус',
+    'released' => 'Бета',
     'features' => 'Features',
-    'choose_game_mode' => 'Choose your game mode',
+    'choose_game_mode' => 'Выбирай мод',
     'item_draft' => 'Item Draft',
-    'item_draft_desc' => 'The item draft is an additional stage to the Captains Mode where each captain bans an item. The ban applies to both teams. Both captains have 3 points to spend.<br/>
-        Teams can use the item draft in order to pressure the opponents and put them out of their comfort zone or eliminate a unique strategy.',
-    'captains_mode_intro' => '+the new',
+    'item_draft_desc' => 'Item Draft - дополнительная стадия перед Captains Mode где каждый Капитан убирает предметы. Бан действует для обеих команд. У каждого Капитана 3 очкa для банов.<br/>
+        Команды могут утилизировать Item Draft, чтобы элиминировать определённую стратегию.',
+    'captains_mode_intro' => '+новый',
     'captains_mode' => 'Captain\'s Mode',
-    'orbs' => 'Orbs',
-    'orbs_desc' => 'Both Orbs will spawn on podiums located in the team’s base.
+    'orbs' => 'Сферы',
+    'orbs_desc' => 'Обе Сферы появляются на подиумах разположены на базах команд.
         <br/><br/>
-        Teams will try to steal the orb and bring it back to their base in order to score points and get rewards.
+        Кража вражеской сферы и доставка на ваш подиум принесёт вам много очков и награждений.
         <br/><br/>
-        Orbs have unique features and interactions and  adapt to the situation of the game.',
+        У каждой сферы уникальные свойства которые зависят от ситуации игры и также предоставляют дополнительную защиту.',
     'learn_more' => 'Learn more',
-    'outposts' => 'Outposts',
-    'outposts_desc' => 'There are 4 outposts on the map, each providing a unique buff to you and your team. 
+    'outposts' => 'Аванпосты',
+    'outposts_desc' => 'Существуют 4 аванпоста на карте которые дают уникальные бафы вам и вашей команде.  
         <br/><br/>
-        Outposts can be captured by destroying their shields.
-        Once an outpost has been captured, it will provide vision, its unique buff and a passive aura that slows enemies in its area. 
+        Аванпосты могут быть захвачены путём уничтожения их щитов.
+        После захвата аванпоста он будет давать видимость, уникальный баф и пассивную ауру замедляющую врагов в области рядом с собой. 
         <br/><br/>
-        Allied outposts can be enhanced with auxiliaries, fortified and teleported to. Outposts will grow stronger each time they’re captured which allows them to scale with the duration of the game.',
-    'wisdom' => 'Wisdom',
-    'wisdom_desc' => 'Offers experience which scales with the current minute of the match.',
-    'celerity' => 'Celerity',
-    'celerity_desc' => 'Grants a movement speed buff which increases every minute.',
-    'fury' => 'Fury',
-    'fury_desc' => 'Provides the controlling team with an attack speed buff and grows more furious with each passing minute.',
+        Аванпосты могут быть улучшены, фортифицырованы и к ним можно телепортироваться. Аванпосты становятся сильнее с каждым разом когда их захватывают. Ихний еффект также со временем становятся сильнее.',
+    'wisdom' => 'Мудрость',
+    'wisdom_desc' => 'Добавляет опыт.',
+    'celerity' => 'Скорость',
+    'celerity_desc' => 'Добавляет скорость передвижения и уменьшение перезарядки.',
+    'fury' => 'Ярость',
+    'fury_desc' => 'Увеличивает урон всех атак.',
     'wealth' => 'Wealth',
-    'wealth_desc' => 'Enrichens the team with a stable income in gold.',
-    'outposts_desc_2' => 'Every owned outpost will generate Essences (which are used to fuel the flame of the altar), one unit every 60 
-        seconds.
-        <br/><br/>
-        In order to capture an outpost, the team will have to destroy their shields. Outposts are invulnerable for 30 
-        seconds after the game starts (meaning that they will become vulnerable at 0:30). They start with 1000 HP and 20 Armor, and gain 250 HP after each capturing. The outpost can be denied when under 10% health, after denial, it will belong to the same team, and will be healed to full HP.
-        <br/><br/>
-        The outposts will slow enemies by 20% and provide vision in a 900 AoE. Outposts also provide true sight in a 700 AoE around them.',
+    'wealth_desc' => 'Добавляет дополнительное золото.',
     'auxiliaries' => 'Auxiliaries',
-    'auxiliaries_desc' => 'After capturing an outpost, you can purchase an Auxiliary for your outpost in order to fortify the position or gain an advantage on the battlefield.
+    'auxiliaries_desc' => 'После захвата аванпоста, вы можете приобрести его улучшения для укрепления своей позиции.
         <br/><br/>
-        Auxiliaries offer many strategic advantages and allow you to reinforce your playstyle. They can be defensive, offensive or offer utility.',
+        Улучшения дают много стратегических преимуществ и позволяют вам улучшить ваш игровой стиль. Они могут быть дефензивными, агрессивными или предоставлять утилитарность. Улучшения владеют активными и пассивными компонентами и часто работают друг с другом..
+		<br/><br/>',
+    'auxiliaries_learn_more' => '<b><font color="#b3e44a">Выбери иконку аванпоста что бы увидеть ихние способности.</b></font>',
     'soruq_bane' => 'Soruq\'s Bane',
-    'soruq_bane_desc' => '',
+    'soruq_bane_desc' => '<font color="#b3e44a">Active</font>: Purges each marked unit, dealing damage and slowing drastically. <br/><font color="#e0705e">Passive</font>: Enemy units stepping in the area of influence of this outpost will be marked for which reveals a large area around them.',
     'diffusal_stone' => 'Diffusal Stone',
-    'diffusal_stone_desc' => '',
+    'diffusal_stone_desc' => '<font color="#b3e44a">Active</font>: After charging up, releases all of the absorbed mana through a pulse around it, converting its stacks into damage.<br/><font color="#e0705e">Passive</font>: Absorbs mana from all enemy units around the outpost.',
     'necrolic_equilibrium' => 'Necrolic Equilibrium',
-    'necrolic_equilibrium_desc' => '',
+    'necrolic_equilibrium_desc' => '<font color="#b3e44a">Active</font>: Generate a large amount of essence around the outpost.<br/><font color="#e0705e">Passive</font>: Allies entering and leaving the area of effect will receive a movement speed buff. The slow aura for enemy units is further increased.',
     'fundamental_boon' => 'Fundamental Boon',
-    'fundamental_boon_desc' => '',
+    'fundamental_boon_desc' => '<font color="#b3e44a">Active</font>: Calls for unity, prompting each hero to teleport to the outpost. After a short delay, teleports all willing heroes to the outpost and applies invisibility. <br/><font color="#e0705e">Passive</font>: Grants the team the ability to process teleportations within 1 second.',
     'damathryx_gift' => 'Damathryx Gift',
-    'damathryx_gift_desc' => '',
+    'damathryx_gift_desc' => '<font color="#b3e44a">Active</font>: Pulls enemy units towards itself and pushes them back, dealing pure damage and disarming them for short time.<br/><font color="#e0705e">Passive</font>: Each time the outpost loses 20% of its maximum HP, it knocks back enemies, damaging and slowing them.',
     'omniscience_blessing' => 'Omniscience\'s Blessing',
-    'omniscience_blessing_desc' => '',
+    'omniscience_blessing_desc' => '<font color="#b3e44a">Active</font>: Heals the outpost and fortifies itself for a short time.<br/><font color="#e0705e">Passive</font>: Increases armor and regeneration of itself and its allies.',
     'goblin_artillery' => 'Goblin Artillery',
-    'goblin_artillery_desc' => '',
+    'goblin_artillery_desc' => '<font color="#b3e44a">Active</font>: After a short delay, a kinetic impulse damages and surpresses a targeted outpost. The benefit of the outpost, the passive component of the auxiliary and the slow will be disabled for short time. <br/><font color="#e0705e">Passive</font>: All allied ranged heroes within the area have their attack range increased.',
     'essence' => 'Essence',
-    'essence_desc' => 'Essence is an additional resource in Fight or Flight. All captured outposts generate essence which can be cast on the Altar.
+    'essence_desc' => 'Эссенции - дополнительные ресурсы которые можно изпользовать на алтарь или собирать в Ассимилатор..
         <br/><br/>
-        Essence will be converted to energy which the team can use in order to summon global spells from the altar.',
+        Эссенции можно конвертировать в энергию для алтаря что бы использовать глобальные способности.',
     'altar' => 'Altar',
-    'altar_desc' => 'The Altar of Madaskus is the central structure of the map which offers vision to both teams.
+    'altar_desc' => 'Альтар Мадаскуса разположен в центре карты.
         <br/><br/>
-        Essences can be casted into the fire of the altar, and the team which has the most logs deposited will receive minor bonuses which are present in a greater measure at the four outposts.
+       Эссенции могут быть применены на алтарь, и команда, которая имеет наибольшее количество эссенций получает небольшие бонусы, присутствующие в каждом из четырех аванпостов.
         <br/><br/>
-        Furthermore, the controlling team will gain points after each passing minute.',
+        Алтарь так же предоставляет 2 очка каждую минуту.',
     'pronin' => 'The Pronin',
     'pronin_desc' => 'The Pronin are three godless creatures which dwell in the southern part of the island.  
         <br/><br/>
         The Pronin can be fought, and once defeated, they will scour the island and destroy any outpost they see and kill any enemy hero who crosses their path, until they\'re defeated. 
         <br/><br/>
         These creatures grow more powerful with each rebirth and the current state of the game.',
-    'unique_items' => 'Unique Items',
-    'unique_items_desc' => 'Fight or Flight has a small number of game-specific items such as the Psychonic which allows teams to move quickly around the battlefield.',
-    'custom_balancing' => 'Custom Balancing',
+    'unique_items' => 'Уникальные предметы',
+    'unique_items_desc' => 'Fight or Flight имеет небольшое количество внутриигровых предметов, например Обелиск, который позволяет командам быстро перемещаться на поле боя.',
+    'custom_balancing' => 'Измененный Баланс',
     'copyright' => 'Copyright © 2016, M.O.D &nbsp;All rights reserved.',
-    'start_playing' => 'Start Playing',
-    'follow_us' => 'Follow us at',
+    'start_playing' => 'Играть',
+    'follow_us' => 'Присоединяйтесь к нам',
 ];
