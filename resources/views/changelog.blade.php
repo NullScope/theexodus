@@ -1,3 +1,7 @@
+<div class="note">
+    {!! trans('day1.custom_balancing_desc') !!}
+</div>
+
 <div class="Container RepeatY BGStyle1" id="Heroes">
      <div class="Inner">
         <h3>Heroes</h3>
@@ -114,10 +118,10 @@
                 <li>Infused Raindrop initial stock time reduced from 270 to 120 seconds</li>
             </ul>
 
-            [[lotus_orb]]
+            <!-- [[lotus_orb]]
             <ul>
                 <li>Lotus Orb can now be cast on buildings</li>
-            </ul>
+            </ul> -->
 
             [[sphere]]
             <ul>

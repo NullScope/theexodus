@@ -1354,6 +1354,14 @@ a, a:visited, a:active {
 	z-index: 2;
 }
 
+#changelog .note{
+	width: 100%;
+	text-align: center;
+	font-size: 0.9375vw;
+    line-height: 1.7708333333333333vw;
+    text-shadow: 0.052083333333333336vw 0.052083333333333336vw 0.052083333333333336vw #000000;
+}
+
 .ChangeDetailsExtended{
 	position: relative;
     display: none;

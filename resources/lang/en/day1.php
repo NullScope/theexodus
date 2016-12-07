@@ -88,6 +88,7 @@ return [
     'unique_items' => 'Unique Items',
     'unique_items_desc' => 'Fight or Flight has a small number of game-specific items such as the Obelisk which allows teams to move quickly around the battlefield.',
     'custom_balancing' => 'Custom Balancing',
+    'custom_balancing_desc' => 'Fight or Flight\'s Heroes and Items have their own balance. These are the most notable changes.',
     'copyright' => 'Copyright © 2016, M.O.D &nbsp;All rights reserved.',
     'start_playing' => 'Start Playing',
     'follow_us' => 'Follow us at',
