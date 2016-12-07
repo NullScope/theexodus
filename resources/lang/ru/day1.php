@@ -80,11 +80,11 @@ return [
         <br/><br/>
         Алтарь так же предоставляет 2 очка каждую минуту.',
     'pronin' => 'The Pronin',
-    'pronin_desc' => 'The Pronin are three godless creatures which dwell in the southern part of the island.  
+    'pronin_desc' => 'Пронины - это три безбожных существа, которые обитают в южной части острова.  
         <br/><br/>
-        The Pronin can be fought, and once defeated, they will scour the island and destroy any outpost they see and kill any enemy hero who crosses their path, until they\'re defeated. 
+        Пронинов можно захватить, и, будучи захваченными, они будут прочесывать остров, уничтожая любой аванпост и убивая любого вражеского героя, который встанет на их пути до тех пор, пока они вновь не потерпят поражение. 
         <br/><br/>
-        These creatures grow more powerful with each rebirth and the current state of the game.',
+        Эти существа становятся все более мощными с каждым перерождением и текущим состоянием игры.',
     'unique_items' => 'Уникальные предметы',
     'unique_items_desc' => 'Fight or Flight имеет небольшое количество внутриигровых предметов, например Обелиск, который позволяет командам быстро перемещаться на поле боя.',
     'custom_balancing' => 'Измененный Баланс',
