@@ -68,7 +68,7 @@ return [
     'omniscience_blessing' => 'Omniscience\'s Blessing',
     'omniscience_blessing_desc' => '<font color="#b3e44a">Active</font>: Heals the outpost and fortifies itself for a short time.<br/><font color="#e0705e">Passive</font>: Increases armor and regeneration of itself and its allies.',
     'goblin_artillery' => 'Goblin Artillery',
-    'goblin_artillery_desc' => '<font color="#b3e44a">Active</font>: After a short delay, a kinetic impulse damages and surpresses a targeted outpost. The benefit of the outpost, the passive component of the auxiliary and the slow will be disabled for short time. <br/><font color="#e0705e">Passive</font>: All allied ranged heroes within the area have their attack range increased.',
+    'goblin_artillery_desc' => '<font color="#b3e44a">Active</font>: After a short delay, a kinetic impulse damages and surpresses a targeted outpost. The benefit of the outpost, the passive component of the auxiliary and the slow will be disabled for a short time. <br/><font color="#e0705e">Passive</font>: All allied ranged heroes within the area have their attack range increased.',
     'essence' => 'Essence',
     'essence_desc' => 'Essence is an additional resource in Fight or Flight. All captured outposts generate essence which can be cast on the Altar or converted in an Assimilator.
         <br/><br/>
