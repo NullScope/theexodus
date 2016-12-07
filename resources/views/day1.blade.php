@@ -229,7 +229,7 @@
             };
 
             var auxDescriptions = {
-                'soruq-bane' : '<font color="#b3e44a">Active</font>: Purges each marked unit, dealing damage and slowing drastically. <br/><font color="#e0705e">Passive</font>: Enemy units stepping in the area of influence of this outpost will be marked for which reveals a large area around them.',
+                'soruq-bane' : '{!! trans("day1.soruq_bane_desc") !!}',
                 'diffusal-stone' : '{!! trans("day1.diffusal_stone_desc") !!}',
                 'necrolic-equilibrium' : '{!! trans("day1.necrolic_equilibrium_desc") !!}',
                 'fundamental-boon' : '{!! trans("day1.fundamental_boon_desc") !!}',
