@@ -5,6 +5,15 @@
 @endsection
 
 @section('content')
+    <script>
+        (function(d, s, id){
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {return;}
+            js = d.createElement(s); js.id = id;
+            js.src = "https://assets.gfycat.com/gfycat.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'gfycat-js'));
+    </script>
     <div id="header">
         <div class="mod-logo"></div>
         <div class="presents-text">{{ trans('day1.presents') }}</div>
@@ -151,6 +160,7 @@
                     <!-- <div id="aux-info"> -->
                         <div id="aux-title"></div>
                         <div id="aux-description"></div>
+                        <div id="aux-video"><div class="gfyitem" data-autoplay="true" data-controls="false" data-id="ImperfectIcyBlackbear"></div></div>
                     <!-- </div> -->
                 </div>
                 <div class="dividing-line"></div>
@@ -265,13 +275,11 @@
 
                 $('#aux-title').html(auxTitles[auxName]);
                 $('#aux-description').html(auxDescriptions[auxName]);
-
-                if ($('#aux-video').length){
-                    $('#aux-video').remove();
-                }
                 
-                $('<div id="aux-video"><div class="gfyitem" data-autoplay="true" data-id="' + auxVideos[auxName] + '"></div></div>').appendTo('#auxes-info');
-                gfyCollection.scan();
+                var collection = gfyCollection.get();
+                collection[0].init({id: auxVideos[auxName]})
+
+                $('#aux-video').show()
 
                 $('body, html').animate({
                     scrollTop: $("#auxes-info").offset().top
@@ -283,13 +291,10 @@
                     $("html,body").stop();
                 }
             });
-
-            // ShowAuxInfo("soruq-bane");
         })(jQuery);
     </script>
 
     <script src="assets/js/fetch_heropedia.js"></script>
-    <script type="text/javascript" src="https://assets.gfycat.com/gfycat.js"></script>
 @endsection
 
 @section('footer')

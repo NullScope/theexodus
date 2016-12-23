@@ -909,7 +909,7 @@ a, a:visited, a:active {
 	float: left;
 	width: 37.5vw;
 	height: 25vw;
-	
+	display: none;
 	/*margin-top: 2.0833333333333335vw;*/
 }
 
