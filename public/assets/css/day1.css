@@ -1534,21 +1534,21 @@ a, a:visited, a:active {
 #footer > .follow.reddit{
 	width: 1.71875vw;
 	height: 1.6666666666666667vw;
-	margin-left: 76vw;
+	margin-left: 80vw;
 	background-image: url("../images/reddit-logo.png");
 }
 
 #footer > .follow.steam{
-	margin-left: 71.875vw;
+	margin-left: 76vw;
 	background-image: url("../images/steam-logo.png");
 }
 
 #footer > .follow.twitter{
-	margin-left: 73.94vw;
+	margin-left: 78vw;
 	background-image: url("../images/twitter-logo.png");
 }
 
 #footer > .follow.discord{
-	margin-left: 69.91vw;
+	margin-left: 74vw;
 	background-image: url("../images/discord-logo.png");
 }
