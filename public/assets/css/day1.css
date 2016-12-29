@@ -1522,33 +1522,35 @@ a, a:visited, a:active {
 	font-size: 0.9375vw;
 }
 
-#footer > .follow{
+#footer > .follow_links{
 	position: absolute;
+	margin-left: 71.51041666666667vw;
+	margin-top: 6.5vw;
+}
+
+#footer .follow{
+	float: right;
+	margin-right: 0.3vw;
 	width: 1.7708333333333333vw;
 	height: 1.6666666666666667vw;
-	margin-top: 6.5vw;
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
 
-#footer > .follow.reddit{
+#footer .follow.reddit{
 	width: 1.71875vw;
 	height: 1.6666666666666667vw;
-	margin-left: 80vw;
 	background-image: url("../images/reddit-logo.png");
 }
 
-#footer > .follow.steam{
-	margin-left: 76vw;
+#footer .follow.steam{
 	background-image: url("../images/steam-logo.png");
 }
 
-#footer > .follow.twitter{
-	margin-left: 78vw;
+#footer .follow.twitter{
 	background-image: url("../images/twitter-logo.png");
 }
 
-#footer > .follow.discord{
-	margin-left: 74vw;
+#footer .follow.discord{
 	background-image: url("../images/discord-logo.png");
 }
