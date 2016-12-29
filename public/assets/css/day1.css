@@ -1529,7 +1529,7 @@ a, a:visited, a:active {
 }
 
 #footer .follow{
-	float: right;
+	float: left;
 	margin-right: 0.3vw;
 	width: 1.7708333333333333vw;
 	height: 1.6666666666666667vw;

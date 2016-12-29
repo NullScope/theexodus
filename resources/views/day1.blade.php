@@ -308,10 +308,10 @@
         </div>
         <div class="follow_us">{{ trans('day1.follow_us') }}</div>
         <div class="follow_links">
-            <a class="follow reddit" href="https://www.reddit.com/r/Dota2FoF/"></a>
-            <a class="follow twitter" href="https://twitter.com/Jicyphex"></a>
-            <a class="follow steam" href="http://steamcommunity.com/groups/dota2fightorflight"></a>
             <a class="follow discord" href="https://discord.gg/mYK76Nc"></a>
+            <a class="follow steam" href="http://steamcommunity.com/groups/dota2fightorflight"></a>
+            <a class="follow twitter" href="https://twitter.com/Jicyphex"></a>
+            <a class="follow reddit" href="https://www.reddit.com/r/Dota2FoF/"></a>
         </div>
     </footer>
 @endsection
