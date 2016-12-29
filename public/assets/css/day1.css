@@ -182,9 +182,8 @@ a, a:visited, a:active {
 
 #characteristics > .shadow{
 	width: 100%;
-	height: 27.083333333333332vw;
+	height: 15vw;
 	opacity: 0.33;
-	margin-top: 11.979166666666666vw;
 	background-image: url("../images/day1/shadow.png");
 	background-repeat: no-repeat;
 	background-size: 100%;

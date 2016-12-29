@@ -94,7 +94,6 @@ return [
 
     'languages' => [
         'en' => 'en',
-        'zh' => 'zh',
         'ru' => 'ru'
     ],
 

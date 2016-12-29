@@ -20,7 +20,6 @@
         <div class="logo"></div>
         <div class="choose-language">
             <a class="language en" href="http://en.{{ Config::get('app.base_address') }}"></a>
-            <a class="language zh" href="http://zh.{{ Config::get('app.base_address') }}"></a>
             <a class="language ru" href="http://ru.{{ Config::get('app.base_address') }}"></a>
         </div>
         <div class="dividing-line"></div>
@@ -30,10 +29,6 @@
         <div id="introduction">
             <div class="title">Fight or Flight</div>
             <div class="description">{!! trans('day1.description') !!}</div>
-            <div id="showmatch">
-                <iframe class="video" src="https://www.youtube.com/embed/GKfHcZC8CAM?rel=0&amp;controls=1&amp;showinfo=0&amp;modestbranding=0" frameborder="0" allowfullscreen></iframe>
-                <div class="title">{!! trans('day1.watch_the_showmatch') !!}</div>
-            </div>
             <div id="characteristics">
                 <div class="shadow">
                 </div>
