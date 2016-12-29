@@ -430,116 +430,109 @@
 [[clarity]]
             <ul>
 <li>Clarity's duration decreased from 50 to 25, mana restored remains the same</li>
-            <ul>
+            </ul>
 
 [[crimson_guard]]
             <ul>
 <li>Crimson Guard recipe cost increased from 600 to 800</li>
-            <ul>
+            </ul>
 
 [[dust]]
             <ul>
 <li>Dust of appearance slow increased from 20% to 30%</li>
-            <ul>
+            </ul>
 
 [[enchanted_mango]]
             <ul>
 <li>Enchanted Mango removed</li>
-            <ul>
+            </ul>
 			
 [[flying_courier]]
             <ul>
 <li>Flying courier is now available from the start</li>
-            <ul>
+            </ul>
 
 [[hand_of_midas]]
-<li>Hand of Midas recipe cost reduced from 1550 to 975</li>
-            <ul></li>
             <ul>
+<li>Hand of Midas recipe cost reduced from 1550 to 975</li>
+            </ul>
 
 [[helm_of_the_dominator]]
             <ul>
 <li>Helm of the Dominator recipe cost increased from 725 to 850</li>
-            <ul>
+            </ul>
 
 [[infused_raindrop]]
             <ul>
 <li>Infused Raindrop initial stock time reduced from 270 to 120 seconds</li>
-            <ul>
+            </ul>
 
 [[iron_talon]]
             <ul>
 <li>Iron Talon removed</li>
-            <ul>
+            </ul>
 
 [[lotus_orb]]
             <ul>
 <li>Lotus Orb duration from 6 to 3</li>
-            <ul>
 <li>Lotus Orb cooldown from 15 to 10</li>
-            <ul>
 <li>Lotus Orb mana cost from 75 to 50</li>
-            <ul>
+            </ul>
 
 [[magic_stick]]
             <ul>
 <li>Magic stick charge radius decreased from 1200 to 1000</li>
-            <ul>
 <li>Magic stick max charges reduced from 10 to 7</li>
-            <ul>
+            </ul>
 
 [[magic_wand]]
             <ul>
 <li>Magic wand max charges reduced from 17 to 14</li>
-            <ul>
+            </ul>
 
 [[necronomicon_3]]
             <ul>
 <li>Necronomicon recipe cost increased from 1200 to 1300</li>
-            <ul>
+            </ul>
 
 [[ward_observer]]
             <ul>
 <li>Observer wards removed </li>
-            <ul>
+            </ul>
 
 [[quelling_blade]]
             <ul>
 <li>Quelling blade item cost reduced from 200 to 90</li>
-            <ul>
 <li>Quelling blade cooldown reduced from 4 to 3 seconds</li>
-            <ul>
+            </ul>
 
 [[phase_boots]]
             <ul>
 <li>Phase meele movement speed decreased from 24% to 18%</li>
-            <ul>
 <li>Phase range movement speed decreased from 20% to 15%</li>
-            <ul>
+            </ul>
 
 [[smoke_of_deceit]]
             <ul>
 <li>Smoke of deceit cooldown stock time reduced from 660 to 450</li>
-            <ul>
 <li>Smoke of deceit bonus movement speed from 15 to 25</li>
-            <ul>
 <li>Smoke of deceit max stock increased from 3 to 4</li>
-            <ul>
+            </ul>
 
 [[tpscroll]]
             <ul>
 <li>Teleport scroll cooldown reduced from 70 to 60 seconds</li>
-            <ul>
+            </ul>
 
 [[tome_of_knowledge]]
             <ul>
 <li>Tome of knowledge removed</li>
-            <ul>
+            </ul>
 
 [[tranquil_boots]]
             <ul>
-<li>Tranquil Boots break duration decreased from 13 to 6 seconds/li>
-            <ul>
+<li>Tranquil Boots break duration decreased from 13 to 6 seconds</li>
+            </ul>
 			
 		</div>
 </div>
