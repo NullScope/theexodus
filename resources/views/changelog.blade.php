@@ -17,7 +17,7 @@
 <li>Greevil's Greed stack duration increased from 30 to 60 </li>
 <li>Greevil's Greed Gold Bonus cap increased from 12/20/28/36 to 14/22/30/38  
             </ul>
-[[ancient_apparation]]
+[[ancient_apparition]]
             <ul>
 <li>Level 20 Hero Talent: Respawn time reduction from -30 to -25  
             </ul>
@@ -413,7 +413,7 @@
 <li>Lightning Bolt damage rescaled from 100/175/275/350 to 90/150/240/350</li>
 <li>Level 20 Hero Talent: Respawn time reduction from -35 to -30</li>
             </ul>
-[[item_courier]]]
+[[courier]]]
             <ul>
 <li>Courier Burst cooldown decreased from 90 to 60 seconds</li>
 <li>Courier Burst speed increased from 800 to 1000</li>
@@ -423,56 +423,56 @@
     <div class="Inner">
         <h3>Item changes</h3>
 
-[[item_blink]]
+[[blink]]
             <ul>
 <li>Blink dagger range penalty removed</li>
             </ul>
-[[item_clarity]]
+[[clarity]]
             <ul>
 <li>Clarity's duration decreased from 50 to 25, mana restored remains the same</li>
             <ul>
 
-[[item_crimson_guard]]
+[[crimson_guard]]
             <ul>
 <li>Crimson Guard recipe cost increased from 600 to 800</li>
             <ul>
 
-[[item_dust]]
+[[dust]]
             <ul>
 <li>Dust of appearance slow increased from 20% to 30%</li>
             <ul>
 
-[[item_enchanted_mango]]
+[[enchanted_mango]]
             <ul>
 <li>Enchanted Mango removed</li>
             <ul>
 			
-[[item_flying_courier]]
+[[flying_courier]]
             <ul>
 <li>Flying courier is now available from the start</li>
             <ul>
 
-[[item_hand_of_midas]
+[[hand_of_midas]
 <li>Hand of Midas recipe cost reduced from 1550 to 975</li>
             <ul></li>
             <ul>
 
-[[item_helm_of_the_dominator]]
+[[helm_of_the_dominator]]
             <ul>
 <li>Helm of the Dominator recipe cost increased from 725 to 850</li>
             <ul>
 
-[[item_infused_raindrop]]
+[[infused_raindrop]]
             <ul>
 <li>Infused Raindrop initial stock time reduced from 270 to 120 seconds</li>
             <ul>
 
-[[item_iron_talon]]
+[[iron_talon]]
             <ul>
 <li>Iron Talon removed</li>
             <ul>
 
-[[item_lotus_orb]]
+[[lotus_orb]]
             <ul>
 <li>Lotus Orb duration from 6 to 3</li>
             <ul>
@@ -481,43 +481,43 @@
 <li>Lotus Orb mana cost from 75 to 50</li>
             <ul>
 
-[[item_magic_stick]]
+[[magic_stick]]
             <ul>
 <li>Magic stick charge radius decreased from 1200 to 1000</li>
             <ul>
 <li>Magic stick max charges reduced from 10 to 7</li>
             <ul>
 
-[[item_magic_wand]]
+[[magic_wand]]
             <ul>
 <li>Magic wand max charges reduced from 17 to 14</li>
             <ul>
 
-[[item_necronomicon_3]]
+[[necronomicon_3]]
             <ul>
 <li>Necronomicon recipe cost increased from 1200 to 1300</li>
             <ul>
 
-[[item_ward_observer]]
+[[ward_observer]]
             <ul>
 <li>Observer wards removed </li>
             <ul>
 
-[[item_quelling_blade]]
+[[quelling_blade]]
             <ul>
 <li>Quelling blade item cost reduced from 200 to 90</li>
             <ul>
 <li>Quelling blade cooldown reduced from 4 to 3 seconds</li>
             <ul>
 
-[[item_phase_boots]]
+[[phase_boots]]
             <ul>
 <li>Phase meele movement speed decreased from 24% to 18%</li>
             <ul>
 <li>Phase range movement speed decreased from 20% to 15%</li>
             <ul>
 
-[[item_smoke_of_deceit]]
+[[smoke_of_deceit]]
             <ul>
 <li>Smoke of deceit cooldown stock time reduced from 660 to 450</li>
             <ul>
@@ -526,17 +526,17 @@
 <li>Smoke of deceit max stock increased from 3 to 4</li>
             <ul>
 
-[[item_tpscroll]]
+[[tpscroll]]
             <ul>
 <li>Teleport scroll cooldown reduced from 70 to 60 seconds</li>
             <ul>
 
-[[item_tome_of_knowledge]]
+[[tome_of_knowledge]]
             <ul>
 <li>Tome of knowledge removed</li>
             <ul>
 
-[[item_tranquil_boots]]
+[[tranquil_boots]]
             <ul>
 <li>Tranquil Boots break duration decreased from 13 to 6 seconds/li>
             <ul>
