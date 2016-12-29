@@ -88,7 +88,7 @@ return [
     'unique_items' => 'Unique Items',
     'unique_items_desc' => 'Fight or Flight has a small number of game-specific items such as the Obelisk which allows teams to move quickly around the battlefield.',
     'custom_balancing' => 'Custom Balancing',
-    'custom_balancing_desc' => 'Fight or Flight\'s Heroes and Items have their own balance. This is a comparison between Dota's 7.00 and Fight or Flight.',
+    'custom_balancing_desc' => 'Fight or Flight\'s Heroes and Items have their own balance. This is a comparison between Dota\'s 7.00 and Fight or Flight.',
     'copyright' => 'Copyright © 2016, M.O.D &nbsp;All rights reserved. Valve, Steam, and Dota are registered trademarks of Valve Corporation. Background image by JiroJh.',
     'start_playing' => 'Start Playing',
     'follow_us' => 'Follow us at',
