@@ -1547,3 +1547,8 @@ a, a:visited, a:active {
 	margin-left: 73.94vw;
 	background-image: url("../images/twitter-logo.png");
 }
+
+#footer > .follow.discord{
+	margin-left: 69.91vw;
+	background-image: url("../images/discord-logo.png");
+}
