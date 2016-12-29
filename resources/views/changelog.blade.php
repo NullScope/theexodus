@@ -413,7 +413,7 @@
 <li>Lightning Bolt damage rescaled from 100/175/275/350 to 90/150/240/350</li>
 <li>Level 20 Hero Talent: Respawn time reduction from -35 to -30</li>
             </ul>
-[[courier]]]
+[[courier]]
             <ul>
 <li>Courier Burst cooldown decreased from 90 to 60 seconds</li>
 <li>Courier Burst speed increased from 800 to 1000</li>
@@ -452,7 +452,7 @@
 <li>Flying courier is now available from the start</li>
             <ul>
 
-[[hand_of_midas]
+[[hand_of_midas]]
 <li>Hand of Midas recipe cost reduced from 1550 to 975</li>
             <ul></li>
             <ul>
