@@ -423,7 +423,7 @@
 
 <div class="Container RepeatY BGStyle0" id="Items">
     <div class="Inner">
-        <h3>Item changes</h3>
+        <h3>Items</h3>
 
         [[blink]]
         <ul>
