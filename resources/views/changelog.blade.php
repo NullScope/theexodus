@@ -352,7 +352,6 @@
         </ul>
         [[treant]] 
         <ul>
-            <li>Leech Seed can now be cast on buildings </li>
             <li>Level 20 Hero Talent: Cooldown reduction reduced from 15% to 12%</li>
             <li>Level 25 Hero Talent: Respawn time reduction from -50 to -40</li>
         </ul>
