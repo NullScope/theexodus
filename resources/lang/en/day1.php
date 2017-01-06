@@ -76,7 +76,7 @@ return [
     'altar' => 'Altar',
     'altar_desc' => 'The Altar of Madaskus is the central structure of the map which offers vision to both teams.
         <br/><br/>
-        Essences can be casted into the fire of the altar, and the team which has the most logs deposited will receive minor bonuses which are present in a greater measure at the four outposts.
+        Essences can be casted into the fire of the altar, and the team which has the most essences deposited will receive minor bonuses which are present in a greater measure at the four outposts.
         <br/><br/>
         Furthermore, the controlling team will gain points after each passing minute.',
     'pronin' => 'The Pronin',
