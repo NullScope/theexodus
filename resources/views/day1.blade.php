@@ -155,7 +155,7 @@
                     <!-- <div id="aux-info"> -->
                         <div id="aux-title"></div>
                         <div id="aux-description"></div>
-                        <div id="aux-video"><div class="gfyitem" data-autoplay="true" data-controls="false" data-id="ImperfectIcyBlackbear"></div></div>
+                        <div id="aux-video"><div class="gfyitem" data-autoplay="true" data-controls="false" data-id="WhiteDapperHornshark"></div></div>
                     <!-- </div> -->
                 </div>
                 <div class="dividing-line"></div>
@@ -271,8 +271,10 @@
                 $('#aux-title').html(auxTitles[auxName]);
                 $('#aux-description').html(auxDescriptions[auxName]);
                 
-                var collection = gfyCollection.get();
-                collection[0].init({id: auxVideos[auxName]})
+                if(typeof gfyCollection !== 'undefined'){
+                    var collection = gfyCollection.get();
+                    collection[0].init({id: auxVideos[auxName]})
+                }
 
                 $('#aux-video').show()
 
@@ -286,6 +288,11 @@
                     $("html,body").stop();
                 }
             });
+
+            // $('#aux-title').html(auxTitles['damathryx-gift']);
+            // $('#aux-description').html(auxDescriptions['damathryx-gift']);
+            // $('#aux-video').show();
+            ShowAuxInfo('damathryx-gift');
         })(jQuery);
     </script>
 
