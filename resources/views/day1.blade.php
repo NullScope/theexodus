@@ -254,10 +254,10 @@
             };
 
             $( ".aux" ).click(function() {
-                ShowAuxInfo( $(this).attr("id") );
+                ShowAuxInfo( $(this).attr("id"), true );
             });
 
-            function ShowAuxInfo( auxName ){
+            function ShowAuxInfo( auxName, bScroll ){
                 $('#soruq-bane').removeClass( 'active' );
                 $('#diffusal-stone').removeClass( 'active' );
                 $('#necrolic-equilibrium').removeClass( 'active' );
@@ -278,9 +278,11 @@
 
                 $('#aux-video').show()
 
-                $('body, html').animate({
-                    scrollTop: $("#auxes-info").offset().top
-                }, 500);
+                if( bScroll ){
+                    $('body, html').animate({
+                        scrollTop: $("#auxes-info").offset().top
+                    }, 500);
+                }
             };
 
             $('body,html').bind('scroll mousedown wheel DOMMouseScroll mousewheel keyup touchmove', function(e){
@@ -289,10 +291,7 @@
                 }
             });
 
-            // $('#aux-title').html(auxTitles['damathryx-gift']);
-            // $('#aux-description').html(auxDescriptions['damathryx-gift']);
-            // $('#aux-video').show();
-            ShowAuxInfo('damathryx-gift');
+            ShowAuxInfo( 'damathryx-gift', false );
         })(jQuery);
     </script>
 
