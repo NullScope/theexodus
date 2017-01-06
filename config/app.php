@@ -51,7 +51,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => env('APP_URL', 'http://fightorflightgame.com'),
 
     /*
     |--------------------------------------------------------------------------
@@ -94,10 +94,12 @@ return [
 
     'languages' => [
         'en' => 'en',
-        'ru' => 'ru'
+        'ru' => 'ru',
+        'eng' => 'en',
+        'rus' => 'ru'
     ],
 
-    'base_address' => 'fightorflight.local',
+    'base_address' => 'fightorflightgame.com',
 
     /*
     |--------------------------------------------------------------------------

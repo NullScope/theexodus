@@ -21,6 +21,7 @@ class CheckLanguage
      */
     public function handle($request, Closure $next)
     {
+        $languages = Config::get('app.languages');
 
         $url = Request::url();
 
@@ -31,18 +32,21 @@ class CheckLanguage
         $subdomain = $host[0];
 
         if(count($host) == 2){
-            App::setLocale(Cookie::get('lang'));
+            $language = array_key_exists(Cookie::get('lang'), $languages) ? Cookie::get('lang') : 'eng';
+            App::setLocale($languages[$language]);
         }else{
-            if ($subdomain != 'en' && in_array($subdomain, Config::get('app.languages'))) {
+            if ($subdomain != 'eng' && array_key_exists($subdomain, $languages)) {
                 Cookie::queue('lang', $subdomain, 2628000, null, env('SESSION_DOMAIN', null));
-                App::setLocale($subdomain);
+                App::setLocale($languages[$subdomain]);
             }
 
-            if($subdomain == 'en'){
-                return Redirect::to('http://' . Config::get('app.base_address'))->withCookie('lang', 'en', 2628000, null, env('SESSION_DOMAIN', null));
-            }else if (count($host) > 3 || !in_array($subdomain, Config::get('app.languages'))) {
-                return Redirect::to('http://' . Config::get('app.base_address'));
-            }
+            return Redirect::to('http://' . Config::get('app.base_address'));
+
+            //if($subdomain == 'en'){
+                //return Redirect::to('http://' . Config::get('app.base_address'))->withCookie('lang', 'en', 2628000, null, env('SESSION_DOMAIN', null));
+            //}else if (count($host) > 3 || !array_key_exists($subdomain, $languages)) {
+                //return Redirect::to('http://' . Config::get('app.base_address'));
+            //}
         }
         
         return $next($request);
