@@ -88,7 +88,7 @@ return [
     'unique_items_desc' => 'Fight or Flight имеет небольшое количество внутриигровых предметов, например Обелиск, который позволяет командам быстро перемещаться на поле боя.',
     'custom_balancing' => 'Измененный Баланс',
     'custom_balancing_desc' => 'Fight or Flight\'s Heroes and Items have their own balance. These are the most notable changes.',
-    'copyright' => 'Copyright © 2016, M.O.D &nbsp;All rights reserved.',
+    'copyright' => 'Copyright © 2017, M.O.D &nbsp;All rights reserved.',
     'start_playing' => 'Играть',
     'follow_us' => 'Присоединяйтесь к нам',
 ];
