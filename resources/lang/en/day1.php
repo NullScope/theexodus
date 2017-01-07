@@ -12,7 +12,7 @@ return [
     */
 
     'presents' => 'Presents',
-    'description' => 'Fight or Flight is a fast-paced, objective-based re-interpretation of Dota. The first team to reach 75 points will be victorious. Points can be gained by killing enemy heroes, controlling the Altar of Madaskus or stealing the enemy orb.',
+    'description' => 'Fight or Flight is a fast-paced, objective-oriented A-RTS featuring CTP & CTF mechanics as well as various objectives on the map. The first team to reach 75 points will be victorious. Points can be gained by killing enemy heroes, controlling the Altar of Madaskus or stealing the enemy orb.',
     'watch_the_showmatch' => 'Watch<br/>the<br/>showmatch',
     'difficulty' => 'Difficulty',
     'competitive' => 'Competitive',
