@@ -305,7 +305,7 @@
         <div class="copyright">{!! trans('day1.copyright') !!}</div>
         <div class="play-button">
             <div class="background"></div>
-            <a href="http://www.google.com">{!! trans('day1.start_playing') !!}</a>
+            <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=837205514">{!! trans('day1.start_playing') !!}</a>
         </div>
         <div class="follow_us">{{ trans('day1.follow_us') }}</div>
         <div class="follow_links">
