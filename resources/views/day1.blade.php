@@ -18,6 +18,10 @@
         <div class="mod-logo"></div>
         <div class="presents-text">{{ trans('day1.presents') }}</div>
         <div class="logo"></div>
+        <div class="play-button">
+            <div class="background"></div>
+            <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=837205514">{!! trans('day1.start_playing') !!}</a>
+        </div>
         <div class="choose-language">
             <a class="language en" href="http://en.{{ Config::get('app.base_address') }}"></a>
             <a class="language ru" href="http://ru.{{ Config::get('app.base_address') }}"></a>

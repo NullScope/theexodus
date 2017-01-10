@@ -1468,7 +1468,7 @@ a, a:visited, a:active {
 	font-size: 0.7291666666666666vw;
 }
 
-#footer > .play-button{
+#footer > .play-button, #header > .play-button{
 	position: absolute;
 	width: 15.833333333333334vw;
 	height: 9.427083333333334vw;
@@ -1477,7 +1477,14 @@ a, a:visited, a:active {
 	pointer-events: none;
 }
 
-#footer > .play-button .background{
+#header > .play-button{
+	width: 28.125vw;
+	height: 16.770833333333332vw;
+	margin-left: 35vw;
+	margin-top: 30vw;
+}
+
+#footer > .play-button .background, #header > .play-button .background{
 	position: absolute;
 	width: 15.833333333333334vw;
 	height: 9.427083333333334vw;
@@ -1486,7 +1493,12 @@ a, a:visited, a:active {
 	background-size: 100%;
 }
 
-#footer > .play-button a{
+#header > .play-button .background{
+	width: 28.125vw;
+	height: 16.770833333333332vw;
+}
+
+#footer > .play-button a, #header > .play-button a{
 	position: relative;
 	display: block;
 	top: 50%;
@@ -1504,11 +1516,16 @@ a, a:visited, a:active {
 	pointer-events: auto;
 }
 
+#header > .play-button a{
+	width: 15.833333333333334vw;
+	font-size: 1.5vw;
+}
+
 .play-button a:link, .play-button a:visited, .play-button a:active{
 	color: #ffffff;
 }
 
-#footer > .play-button:hover .background{
+#footer > .play-button:hover .background, #header > .play-button:hover .background{
 	background-image: url("../images/day1/play-button-hover.png");
 }
 
