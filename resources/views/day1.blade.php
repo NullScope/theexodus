@@ -91,7 +91,7 @@
                 <div class="description">{!! trans('day1.orbs_desc') !!}</div>
                 <div class="wallpaper"></div>
                 <div class="dividing-line"></div>
-                <div id="orbs-learn-more" class="learn-more"><span>{!! trans('day1.learn_more') !!}</span></div>
+                <a id="orbs-learn-more" class="learn-more" target="_blank" href="https://www.reddit.com/r/Dota2FoF/wiki/orbs"><span>{!! trans('day1.learn_more') !!}</span></a>
                 <div class="extra"></div>
                 <div class="dividing-line-2"></div>
             </div>
@@ -181,7 +181,7 @@
                 <div class="description">{!! trans('day1.altar_desc') !!}</div>
                 <div class="wallpaper"></div>
                 <div class="dividing-line"></div>
-                <div id="altar-learn-more" class="learn-more"><span>{!! trans('day1.learn_more') !!}</span></div>
+                <a id="altar-learn-more" class="learn-more" target="_blank" href="https://www.reddit.com/r/Dota2FoF/wiki/altar"><span>{!! trans('day1.learn_more') !!}</span></a>
             </div>
 
             <div id="pronin" class="clearfix">
