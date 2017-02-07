@@ -303,9 +303,6 @@
         <div class="line"></div>
         <div class="logo"></div>
         <div class="copyright">{!! trans('day1.copyright') !!}</div>
-        <div class="play-button">
-            <div class="background"></div>
-            <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=837205514">{!! trans('day1.start_playing') !!}</a>
         </div>
     </footer>
 @endsection
