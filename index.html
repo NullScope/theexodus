@@ -28,16 +28,6 @@
     </head>
     
 <body>
-        
-    <script>
-        (function(d, s, id){
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) {return;}
-            js = d.createElement(s); js.id = id;
-            js.src = "https://assets.gfycat.com/gfycat.js";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'gfycat-js'));
-    </script>
     <div id="header">
         <div class="mod-logo"></div>
         <div class="presents-text">Presents</div>
@@ -192,7 +182,12 @@
                     <!-- <div id="aux-info"> -->
                         <div id="aux-title"></div>
                         <div id="aux-description"></div>
-                        <div id="aux-video"><div class="gfyitem" data-autoplay="true" data-controls="false" data-id="WhiteDapperHornshark"></div></div>
+                        <video
+                            id="aux-video"
+                            src="assets/videos/damathryx-gift.webm"
+                            type="video/webm"
+                            autoplay
+                        ></video>
                     <!-- </div> -->
                 </div>
                 <div class="dividing-line"></div>
@@ -286,40 +281,20 @@
                 'goblin-artillery' : '<font color="#b3e44a">Active</font>: After a short delay, a kinetic impulse damages and surpresses a targeted outpost. The benefit of the outpost, the passive component of the auxiliary and the slow will be disabled for a short time. <br/><font color="#e0705e">Passive</font>: All allied ranged heroes within the area have their attack range increased.',
             };
 
-            var auxVideos = {
-                "soruq-bane" : "ImperfectIcyBlackbear",
-                "diffusal-stone" : "YoungNearAmericanindianhorse",
-                "necrolic-equilibrium" : "VigorousMeaslyAnemone",
-                "fundamental-boon" : "CookedGraciousAsiaticlesserfreshwaterclam",
-                "damathryx-gift" : "WhiteDapperHornshark",
-                "omniscience-blessing" : "EcstaticRevolvingAsiansmallclawedotter",
-                "goblin-artillery" : "CarefulPlumpAlleycat",
-            };
-
             $( ".aux" ).click(function() {
                 ShowAuxInfo( $(this).attr("id"), true );
             });
 
             function ShowAuxInfo( auxName, bScroll ){
-                $('#soruq-bane').removeClass( 'active' );
-                $('#diffusal-stone').removeClass( 'active' );
-                $('#necrolic-equilibrium').removeClass( 'active' );
-                $('#fundamental-boon').removeClass( 'active' );
-                $('#damathryx-gift').removeClass( 'active' );
-                $('#omniscience-blessing').removeClass( 'active' );
-                $('#goblin-artillery').removeClass( 'active' );
+                $('.aux').removeClass( 'active' );
 
                 $('#'+auxName).addClass( 'active' );
 
                 $('#aux-title').html(auxTitles[auxName]);
                 $('#aux-description').html(auxDescriptions[auxName]);
-                
-                if(typeof gfyCollection !== 'undefined'){
-                    var collection = gfyCollection.get();
-                    collection[0].init({id: auxVideos[auxName]})
-                }
 
-                $('#aux-video').show()
+                $('#aux-video').attr("src", "assets/videos/" + auxName + ".webm");
+                $('#aux-video').show();
 
                 if( bScroll ){
                     $('body, html').animate({
